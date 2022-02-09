@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid blue;
+        }
+
+
+        h2 {
+            text-align: center;
+            color: rgb(30, 85, 227);
+            font: bold, verdana, Arial
+        }
+
+        p {
+            font: 12px;
+            text-align: center;
+        }
+
+        .destacado {
+            text-align: left;
+        }
+
+        /*Cabecera*/
+        #cabecera {
+            background: #C8D3E5;
+            border: 1px solid #999999;
+            padding: 20px;
+        }
+
+        #titulo {
+            font-family: Britannic;
+            background-color: rgb(86, 217, 246)
+        }
+
+        aside {
+            width: 49%;
+            padding-left: 0px;
+            margin-left: 2px;
+            float: left;
+            font-style: normal;
+            background-color: lightblue;
+        }
+
+        main {
+            width: 49%;
+            padding-left: 0px;
+            margin-left: 2px;
+            float: right;
+            font-style: normal;
+            background-color: lightblue;
+        }
+
+        #footer1 {
+            width: 49%;
+            padding-left: 0px;
+            margin-left: 2px;
+            float: left;
+            font-style: normal;
+            background-color: lightcyan;
+        }
+
+        #footer2 {
+            width: 49%;
+            padding-left: 0px;
+            margin-left: 2px;
+            float: right;
+            font-style: normal;
+            background-color: lightcyan;
+        }
+
+        /*Barra defs navegación*/
+        ol {
+            list-style-type: none;
+            background-color: #86EEFD;
+            padding: 10px;
+            overflow: hidden;
+        }
+
+        li {
+            display: inline-block;
+        }
+
+            li a {
+                background: #91B6FA;
+                color: black;
+                margin: 0;
+                padding: 10px 30px;
+                text-decoration: none;
+            }
+
+                li a:hover {
+                    background: #78BAE3;
+                }
+
+        /*footer*/
+        #pie {
+            clear: both;
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #999999;
+        }
+
+        /*Declarando nuevos HTML5*/
+        header, section, footer, aside, nav, article {
+            display: block;
+        }
+
+        /*centrando cuerpo*/
+        body {
+            text-align: center;
+        }
+
+        /*Ultimos toques*/
+        article {
+            background: #D8FBFD;
+            border: 0px solid #999999;
+            padding: 0;
+            margin-bottom: 15px;
+        }
+
+        /*box zizing*/
+        div {
+            width: 1323px;
+            margin: 0px;
+            padding: 12px;
+            border: none /*1px solid #000000*/;
+            -moz-box-sizing: content-box border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        /*Caja principal*/
+        #fondo_prin {
+            width: 1350px;
+            margin: 15px auto;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="Estilo.css" />
+
+    <meta charset="utf-8" />
+    <title>Curriculum</title><!--No mas de 65 caracteres-->
+    <!--Meta etiquetas-->
+    <meta name="author" content="Melissa Arce">
+    <meta name="description" content="Ejemplo de curriculum, desarrollado"> <!--No mas de 145 caracteres-->
+    <meta name="keywords" content="Curriculum, Plantillas de CV profesional, Ejemplos de Curriculums"> <!--Son palabras claves-->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+
+    <meta property="og:image" content="https://i.pinimg.com/originals/3c/47/00/3c4700e40f1fef7f2e6cd6a0585edebe.jpg"> <!--No se como poner una imagen en el titulo-->
+</head>
+
+<body bgcolor="#E3E4FA">
+    <!--para el color del fondo-->
+    <div id="fondo">
+        <div id="fondo_prin">
+            <header id="cabecera">
+                    <h1 id="titulo">
+                        Curriculum Web: Melissa Arce
+                        <br />
+                        <small>Curriculum profesional</small>
+                    </h1>
+
+                <!--Barra de navegacion-->
+                <nav>
+                    <ol>
+                        <li><a href="#personal" class="navegacion">Información Personal</a></li>
+                        <li><a href="#tabla" class="navegacion">Tabla de información</a></li>
+                        <li><a href="#academica" class="navegacion">Información académica formal</a></li>
+                        <li><a href="#curso" class="navegacion">Información cursos especializados</a></li>
+                        <li><a href="#experiencia" class="navegacion">Informacion de experiencia laboral</a></li>
+                    </ol>
+                    <br />
+                </nav>
+                <hr />
+                <section>
+                    
+                    <center>
+                        <img src="img/foto.jpeg" alt="Imagen de Melissa Arce" width="140" height="200" title="Melissa Arce" />
+                        <img src="img/qr.png" alt="Link de facebook" width="200" height="200" title="Sigueme en facebook" />
+                    </center>
+                </section>
+            </header>
+
+            <div id="contenidoPrincipal">
+                <aside>
+                    <section>
+                        <hr />
+                        <br /><br /><br /><br /><br />
+                        <h2 id="personal"><b>Información personal</b></h2>
+                        <p><b><big>Melissa Pamela Arce Gamboa</big></b> <br /> Estudiante de Ingeniería del software en la Universidaad Técnica Nacional</p>
+                    
+                    
+                    
+                        <p><b>Edad:</b> <br /> 19 años</p>
+                        <p><b>Teléfono:</b> <br /> 6145 3984</p>
+                        <p><b>Correo electrónico:</b> <br /> melissapag9152002@gmail.com</p>
+                        <p><b>Domicilio:</b> <br /> Sabana Redonda de Póas, Alajuela</p>
+                        <br /><br /><br /><br /><br />
+                    </section>
+                    
+                    <hr />
+                </aside>
+
+                <main>
+                    <hr />
+                    <article>
+                        <h2 id="academica"><b>Información académica formal</b></h2>
+                        <p>Sexto grado, en la escuela Monseñor Delfín Quesada Castro</p>
+                        <p>Bachillerato de edcuación media, en el Liceo de Poás</p>
+                        <center><p>Curso diplomado de la carrera Ingeniería del Software</p> <br /><a href="https://www.utn.ac.cr/"><img src="img/utn.png" alt="Image de la UTN" width="100" height="100" title="Toque la imagen para dirijirse a la página" /></a> <b>Universidad de estudio:</b>Universidad Técnica Nacional</center>
+                        <hr />
+                    </article>
+
+                    <article>
+                        <h2 id="curso"><b>Información cursos especializados</b></h2>
+                        <p>Certificado de inglés en la academia Lider <br /> Un certificado de contabillidad básica en el Liceo de Póas</p>
+                        <hr />
+                    </article>
+
+                    <article>
+                        <h2 id="experiencia"><b>Información de experiencia laboral</b></h2>
+                        <p>Sin experiencia laboral de ningun ámbito</p>
+                        <hr />
+                    </article>
+
+
+                </main>
+
+                <div id="Tabla">
+                    <!-- Tablas -->
+                    <center>
+                        <table style="width:50%">
+                            <caption><h2 id="tabla">Tabla de información</h2></caption>
+                            <thead>
+                                <tr>
+                                    <th><b style="color: #7B13D4;">Hobbies</b></th>
+                                    <th><b style="color: #7B13D4;">Aptitudes</b></th>
+                                    <th><b style="color: #7B13D4;">Habilidades</b></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <ul>
+                                    <td><li>Tocar guitarra</li></td>
+                                    <td><li>Responsable</li></td>
+                                    <td><li>Conocimientos de xml</li></td>
+                                    </ul>
+                                </tr>
+                                <tr>
+                                    <ul>
+                                    <td><li>Andar en bicicleta</li></td>
+                                    <td><li>Amable</li></td>
+                                    <td><li>Manejo del leguaje Java</li></td>
+                                    </ul>
+                                </tr>
+                                <tr>
+                                    <ul>
+                                    <td><li>Jugar video juegos</li></td>
+                                    <td><li>Curiosa</li></td>
+                                    <td><li>Manejo del leguaje C#</li></td>
+                                    </ul>
+                                </tr>
+                                <tr>
+                                    <ul>
+                                    <td><li>Caminar</li></td>
+                                    <td><li>Disiplina</li></td>
+                                    <td><li>Conocimiento de desarrollo de aplicaciones</li></td>
+                                    </ul>
+                                </tr>
+                                <tr>
+                                    <ul>
+                                    <td><li>Cocinar</li></td>
+                                    <td><li>Respetuosa</li></td>
+                                    <td><li>Organización</li></td>
+                                    </ul>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td>Hobbies, aptitudes, habilidades</td>
+                                    <td>febrero 2022</td>
+                                    <td>fuente propia</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                        <br />
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <footer id="pie">
+            <br />
+            <p id="footer1" class="destacado">Copyright 2022</p>
+            <p id="footer2" class="destacado">UTN-Melissa Arce Gamboa.</p>
+            <p class="destacado"><b>Dirección de contacto, en caso de problemas relacionadas con la página:</b><a href="mailto:melissapag9152002@gmial.com">Enviar mail</a></pclas>
+        </footer>
+    </div>
+</body>
+</html>
+
+<!--<p style="font-size:50px;">I am big</p>-->
